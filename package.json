@@ -3,9 +3,13 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
+    "build": "concurrently pnpm:build:*",
     "build:admin": "nx build admin --verbose",
+    "dev": "concurrently pnpm:dev:*",
     "dev:admin": "nx dev admin --verbose",
+    "lint": "concurrently pnpm:lint:*",
     "lint:admin": "nx lint admin --verbose",
+    "test": "concurrently pnpm:test:*",
     "test:admin": "nx test admin --verbose"
   },
   "private": true,
@@ -37,6 +41,7 @@
     "@typescript-eslint/eslint-plugin": "^7.3.0",
     "@typescript-eslint/parser": "^7.3.0",
     "babel-jest": "^29.4.1",
+    "concurrently": "^8.2.2",
     "cypress": "^13.6.6",
     "eslint": "~8.57.0",
     "eslint-config-next": "14.0.4",
