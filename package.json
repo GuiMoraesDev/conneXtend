@@ -3,9 +3,10 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "lint:admin": "nx lint admin --verbose",
+    "build:admin": "nx build admin --verbose",
     "dev:admin": "nx dev admin --verbose",
-    "build:admin": "nx build admin --verbose"
+    "lint:admin": "nx lint admin --verbose",
+    "test:admin": "nx test admin --verbose"
   },
   "private": true,
   "dependencies": {
