@@ -1,0 +1,9 @@
+{
+  "name": "conne-xtend-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/conne-xtend-e2e/src",
+  "tags": [],
+  "implicitDependencies": ["conne-xtend"],
+  "// targets": "to see all targets run: nx show project conne-xtend-e2e --web",
+  "targets": {}
+}
