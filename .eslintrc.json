@@ -18,6 +18,29 @@
               }
             ]
           }
+        ],
+        "no-console": "error",
+        "no-unused-vars": "off",
+        "@typescript-eslint/no-unused-vars": [
+          "error",
+          {
+            "args": "all",
+            "argsIgnorePattern": "^_"
+          }
+        ],
+        "@typescript-eslint/consistent-type-imports": [
+          "error",
+          {
+            "fixStyle": "inline-type-imports",
+            "disallowTypeAnnotations": false
+          }
+        ],
+        "import/order": [
+          "error",
+          {
+            "newlines-between": "always",
+            "alphabetize": { "order": "asc", "caseInsensitive": true }
+          }
         ]
       }
     },
