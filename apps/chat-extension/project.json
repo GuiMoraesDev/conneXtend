@@ -1,0 +1,13 @@
+{
+  "name": "chat-extension",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/chat-extension",
+  "projectType": "application",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project chat-extension --web",
+  "targets": {
+    "format-build": {
+      "command": "cd apps/chat-extension && ls && mv ./out/_next ./out/next && cp -R ./src/extension ./out"
+    }
+  }
+}

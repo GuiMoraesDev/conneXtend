@@ -15,7 +15,6 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@root": ["./"],
       "@admin": ["apps/admin/src/"]
     }
   },
