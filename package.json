@@ -11,8 +11,8 @@
     "dev:admin": "nx dev admin --verbose",
     "lint": "concurrently pnpm:lint:*",
     "lint:admin": "nx lint admin --verbose",
-    "test": "concurrently pnpm:test:*",
-    "test:admin": "nx test admin --verbose",
+    "test:unit": "concurrently pnpm:test:unit:*",
+    "test:unit:admin": "nx test admin --verbose",
     "prepare": "husky"
   },
   "private": true,
