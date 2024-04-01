@@ -4,7 +4,8 @@
   "license": "MIT",
   "scripts": {
     "lint:admin": "nx lint admin --verbose",
-    "dev:admin": "nx dev admin --verbose"
+    "dev:admin": "nx dev admin --verbose",
+    "build:admin": "nx build admin --verbose"
   },
   "private": true,
   "dependencies": {
