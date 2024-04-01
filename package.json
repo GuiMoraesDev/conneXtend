@@ -6,6 +6,8 @@
     "build": "concurrently pnpm:build:*",
     "build:admin": "nx build admin --verbose",
     "dev": "concurrently pnpm:dev:*",
+    "type-check": "concurrently pnpm:type-check:*",
+    "type-check:admin": "pnpm tsc --noEmit --incremental -p ./apps/admin",
     "dev:admin": "nx dev admin --verbose",
     "lint": "concurrently pnpm:lint:*",
     "lint:admin": "nx lint admin --verbose",
